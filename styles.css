@@ -1,0 +1,60 @@
+body {
+    background-color: chartreuse;
+}
+#heading {
+    text-align: center;
+    border-color: blueviolet;
+    border-style: double;
+    border-radius: 50%;
+    border-width: 1rem;
+    margin: auto;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 5rem;
+    color: chocolate;
+    box-sizing: border-box;
+}
+
+/* #heading:hover {
+    background-color: green;
+} */
+
+
+
+h2 {
+    border-style: double;
+    border-color: blueviolet;
+    border-width: 5px;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.list {
+    background-color: blueviolet;
+    color: rgb(231, 209, 10);
+    border-radius: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.list:hover {
+    background-color: aqua;
+}
+
+table {
+    border-style: dashed;
+}
+
+a {
+    color: aquamarine;
+    transition: background-color 0.5s;
+}
+
+a:hover {
+    background-color: red;
+}
